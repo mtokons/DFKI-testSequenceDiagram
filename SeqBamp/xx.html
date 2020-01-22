@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js.map"></script> -->
+    <script src="webfont.js"></script>
+    <script src="snap.svg-min.js"></script>
+    <script src="underscore-min.js"></script>
+    <script src="sequence-diagram-min.js"></script>
+    <title>Document</title>
+</head>
+<body> 
+    <div class="diagram">
+            A->B: Message
+            B->A: Return
+        </div>
+    <script>
+    $(".diagram").sequenceDiagram({theme: 'hand'});
+    </script>
+    
+</body>
+</html>
