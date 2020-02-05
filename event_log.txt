@@ -1,0 +1,63 @@
+1 //[started] %self ///
+1 //[started] program ///
+1 //[started] simulation_startup_door_navigation/program ///
+1 //[started] simulation_startup_door_navigation/launch ///
+2 //[polling] %self ///
+2 //[polling] program ///
+2 //[polling] simulation_startup_door_navigation/launch ///
+2 //[established] simulation_startup_door_navigation/launch ///
+2 //[success] simulation_startup_door_navigation/launch ///
+2 //[stopped] simulation_startup_door_navigation/launch /Success called with context: //
+2 //[polling] simulation_startup_door_navigation/program ///
+2 //[started] door_navigation_sim/program ///
+2 //[started] door_navigation_sim/launch ///
+2 //[established] simulation_startup_door_navigation/program ///
+3 //[polling] door_navigation_sim/launch ///
+3 //[established] door_navigation_sim/launch ///
+3 //[success] door_navigation_sim/launch ///
+3 //[stopped] door_navigation_sim/launch /Success called with context: //
+3 //[polling] door_navigation_sim/program ///
+3 //[started] CloseGripper/MoveGripper/WritePort ///
+3 //[started] CloseGripper/MoveGripper/program ///
+3 //[started] CloseGripper/program ///
+3 //[established] door_navigation_sim/program ///
+4 //[polling] CloseGripper/MoveGripper/WritePort ///
+4 //[success] CloseGripper/MoveGripper/WritePort /Sample successfully written to port//
+4 //[stopped] CloseGripper/MoveGripper/WritePort /Success called with context: Sample successfully written to port//
+4 //[polling] CloseGripper/MoveGripper/program ///
+4 //[polling] CloseGripper/program ///
+4 //[started] CloseGripper/SystemCall ///
+4 //[success] CloseGripper/MoveGripper/program ///
+4 //[stopped] CloseGripper/MoveGripper/program /Success called with context: //
+5 //[polling] CloseGripper/SystemCall ///
+35 //[success] CloseGripper/SystemCall /STDOUT: 
+STDERR: //
+35 //[stopped] CloseGripper/SystemCall /Success called with context: STDOUT: 
+STDERR: //
+35 //[started] MoveArmUnstow/program ///
+35 //[started] MoveArmUnstow/MoveArm/program ///
+35 //[started] MoveArmUnstow/CloseGripper/MoveGripper/program ///
+35 //[started] MoveArmUnstow/CloseGripper/program ///
+35 //[failed] MoveArmUnstow/MoveArm/ConfigureWaypointProvider /CND Handler returned error//
+35 //[stopped] MoveArmUnstow/MoveArm/ConfigureWaypointProvider /Failed called with context: CND Handler returned error//
+35 //[started] MoveArmUnstow/MoveArm/ConfigureWaypointProvider ///
+35 //[started] MoveArmUnstow/CloseGripper/MoveGripper/WritePort ///
+35 //[success] CloseGripper/program ///
+35 //[stopped] CloseGripper/program /Success called with context: //
+36 //[polling] MoveArmUnstow/CloseGripper/MoveGripper/WritePort ///
+36 //[success] MoveArmUnstow/CloseGripper/MoveGripper/WritePort /Sample successfully written to port//
+36 //[stopped] MoveArmUnstow/CloseGripper/MoveGripper/WritePort /Success called with context: Sample successfully written to port//
+36 //[polling] MoveArmUnstow/CloseGripper/MoveGripper/program ///
+36 //[polling] MoveArmUnstow/CloseGripper/program ///
+36 //[polling] MoveArmUnstow/MoveArm/program ///
+36 //[polling] MoveArmUnstow/program ///
+36 //[started] MoveArmUnstow/CloseGripper/SystemCall ///
+36 //[success] MoveArmUnstow/CloseGripper/MoveGripper/program ///
+36 //[stopped] MoveArmUnstow/CloseGripper/MoveGripper/program /Success called with context: //
+37 //[polling] MoveArmUnstow/CloseGripper/SystemCall ///
+67 //[success] MoveArmUnstow/CloseGripper/SystemCall /STDOUT: 
+STDERR: //
+67 //[stopped] MoveArmUnstow/CloseGripper/SystemCall /Success called with context: STDOUT: 
+STDERR: //
+67 //[success] MoveArmUnstow/CloseGripper/program ///
+67 //[stopped] MoveArmUnstow/CloseGripper/program /Success called with context: //
